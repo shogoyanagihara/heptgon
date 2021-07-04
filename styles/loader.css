@@ -1,0 +1,104 @@
+.pace-done #global-container {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+#global-container {
+  opacity: 0;
+}
+
+.pace {
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.pace .pace-progress {
+  -webkit-transform: none !important;
+          transform: none !important;
+  text-align: center;
+}
+
+.pace .pace-progress::after {
+  content: attr(data-progress-text);
+  display: block;
+  font-weight: 100;
+  font-size: 2em;
+  font-family: 'Helvetica Neue', 'Yu Gothic', 'Meiryo', sans-serif;
+  color: #535353;
+}
+
+.pace.pace-inactive {
+  display: none;
+}
+
+.pace-progress-inner > div {
+  background-color:white;
+  color: aquamarine;
+  height: 150px;
+  display: inline-block;
+  font-size: 3em;
+  -webkit-animation-name: sk-bounce;
+          animation-name: sk-bounce;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.pace-progress-inner > div:nth-child(1) {
+  -webkit-animation-delay: -1.2s;
+          animation-delay: -1.2s;
+}
+
+.pace-progress-inner > div:nth-child(2) {
+  -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s;
+}
+
+.pace-progress-inner > div:nth-child(3) {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+
+@-webkit-keyframes sk-bounce {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+            transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
