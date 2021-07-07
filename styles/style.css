@@ -1292,7 +1292,14 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
+.left-item {
+  float: left;
+  width: 50%; 
+}
+.right-item {
+  float: right;
+  width: 50%; 
+}
 .side {
   display: none;
   position: fixed;
