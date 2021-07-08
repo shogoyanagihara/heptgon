@@ -1019,16 +1019,10 @@ img {
 .pb-lg, .hero {
   padding-bottom: 80px !important;
 }
-.content-width, .header__inner, .travel, .popular__header, .popular__container, .footer {
+.content-width, .header__inner, .travel,.houses, .more-houses, .popular__header, .popular__container, .footer {
   width: 90%;
   margin: 0 auto;
   max-width: 1070px;
-}
-.houses{
-  width: 90%;
-  margin: 0 auto;
-  max-width: 1070px;
-  text-align: center;
 }
 
 .main-title {
@@ -1382,21 +1376,17 @@ main {
 .icon.fb::before {
   background-image: url(../images/facebook.svg);
 }
-
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   /******************************************************************
 
-Stylesheet: 480px以上(スマホの横向き)のモニタで適用
+Stylesheet: 450px以下のモニタで適用
 
 ******************************************************************/
-/*.left-item {
-  float: left;
-  width: 50%; 
+.more-houses{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
-.right-item {
-  float: right;
-  width: 50%;
-}*/
 .more-inner {
   display: inline-block; 
   justify-content: center;
@@ -1405,7 +1395,29 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   margin: 5px; 
 }
 .morehouses__title {
-  font-size: 2px;
+  font-size: 9px;
+}
+}
+@media (min-width:450px) and ( max-width:600px) {
+  /******************************************************************
+
+Stylesheet: 600px以下(スマホの横向き)のモニタで適用
+
+******************************************************************/
+.more-houses{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+.more-inner {
+  display: inline-block; 
+  justify-content: center;
+}
+.houses__item {
+  margin: 5px; 
+}
+.morehouses__title {
+  font-size: 15px;
 }
 }
 @media (min-width: 600px) {
