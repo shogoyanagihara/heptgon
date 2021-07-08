@@ -996,7 +996,7 @@ img {
   font-size: 17px;
 }
 
-.font-lr, .houses__title {
+.font-lr, .houses__title, .morehouses__title {
   font-size: 17px;
 }
 
@@ -1004,7 +1004,7 @@ img {
   font-size: 25px;
 }
 
-.mb-sm, .travel__sub, .travel__img, .houses__title, .popular__title {
+.mb-sm, .travel__sub, .travel__img, .houses__title,.morehouses__title, .popular__title {
   margin-bottom: 16px !important;
 }
 
@@ -1036,7 +1036,7 @@ img {
   color: #535353;
 }
 
-.flex, .travel__inner, .houses__inner, .popular__container, .footer__nav, .footer__ul {
+.flex, .travel__inner, .houses__inner,.more-inner, .popular__container, .footer__nav, .footer__ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1392,9 +1392,11 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
   float: right;
   width: 50%;
 }*/
-.houses__inner {
-  display: inline-block;
-  
+.more-inner {
+  display: inline-block; 
+}
+.morehouses__title {
+  font-size: 2px;
 }
 }
 @media (min-width: 600px) {
@@ -1403,7 +1405,7 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 Stylesheet: 600px以上のタブレットやモニタで適用
 
 ******************************************************************/
-  .flex, .travel__inner, .houses__inner, .popular__container, .footer__nav, .footer__ul {
+  .flex, .travel__inner, .houses__inner,.more-inner, .popular__container, .footer__nav, .footer__ul {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1471,7 +1473,7 @@ Stylesheet: 960px以上のモニタで適用
   .font-md, .popular__title {
     font-size: 19px;
   }
-  .font-lr, .houses__title {
+  .font-lr, .houses__title, .morehouses__title {
     font-size: 23px;
   }
   .font-lg, .main-title {
