@@ -1019,10 +1019,16 @@ img {
 .pb-lg, .hero {
   padding-bottom: 80px !important;
 }
-.content-width, .header__inner, .travel, .houses, .popular__header, .popular__container, .footer {
+.content-width, .header__inner, .travel, .popular__header, .popular__container, .footer {
   width: 90%;
   margin: 0 auto;
   max-width: 1070px;
+}
+.houses{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1070px;
+  text-align: center;
 }
 
 .main-title {
