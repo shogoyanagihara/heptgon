@@ -7,6 +7,15 @@ Stylesheet: 600px以上のタブレットやモニタで適用
     flex-direction: row;
     flex-wrap: wrap;
 }
+.left-item {
+    float: left;
+    width: 50%; 
+  }
+  .right-item {
+    float: right;
+    width: 50%;
+  }
+  
 
 .houses {
     &__item {

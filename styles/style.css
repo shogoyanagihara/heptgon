@@ -1300,6 +1300,9 @@ main {
   float: right;
   width: 50%; 
 }
+.clear {
+  clear: both;
+}
 .side {
   display: none;
   position: fixed;
@@ -1375,14 +1378,25 @@ main {
   background-image: url(../images/facebook.svg);
 }
 
-@media (min-width: 480px) {
+@media (max-width: 600px) {
   /******************************************************************
 
 Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 ******************************************************************/
+/*.left-item {
+  float: left;
+  width: 50%; 
 }
-
+.right-item {
+  float: right;
+  width: 50%;
+}*/
+.houses__inner {
+  display: inline-block;
+  
+}
+}
 @media (min-width: 600px) {
   /******************************************************************
 
@@ -1413,6 +1427,14 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   }
   .travel__inner {
     padding: 50px;
+  }
+  .left-item {
+    float: left;
+    width: 50%; 
+  }
+  .right-item {
+    float: right;
+    width: 50%;
   }
   .travel__texts, .travel__img {
     -ms-flex-preferred-size: 47%;
