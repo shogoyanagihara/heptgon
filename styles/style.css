@@ -1395,6 +1395,9 @@ Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 .more-inner {
   display: inline-block; 
 }
+.houses__item {
+  margin: 5px; 
+}
 .morehouses__title {
   font-size: 2px;
 }
