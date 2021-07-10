@@ -86,4 +86,20 @@ class Main {
         this.observers = new ScrollObserver('#main-content', this._sideAnimation.bind(this), {once: false, rootMargin: "-300px 0px"});
     }
 }
+/*function clickBtn1(){
+var logo__img =  $("input[name='logo__img']:checked").val();   
+$(".div1").show();
+$(".div2").hide();
+}
+// 法人選択
+if(logo__img == "1"){
+    $(".div2").show();
+    $(".div1").hide();
 
+// 個人選択
+}else if (applicationType == "2"){
+  $(".Corp").hide();
+  $(".Person").show(); 
+  $(".Person .input").attr('required', 'required');
+  $("[name='gender']").attr('required', 'required');
+};*/

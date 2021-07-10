@@ -416,22 +416,34 @@
 .tween-animate-title {
   opacity: 0;
 }
-
+.animate-title1,
+.tween-animate-title1 {
+  opacity: 0;
+}
 .animate-title.inview,
 .tween-animate-title.inview {
   opacity: 1;
 }
-
+.animate-title1.inview,
+.tween-animate-title1.inview {
+  opacity: 1;
+}
 .animate-title.inview .char,
 .tween-animate-title.inview .char {
   display: inline-block;
 }
-
+.animate-title1.inview .char,
+.tween-animate-title1.inview .char {
+  display: inline-block;
+}
 .animate-title .char,
 .tween-animate-title .char {
   opacity: 0;
 }
-
+.animate-title1 .char,
+.tween-animate-title1 .char {
+  opacity: 0;
+}
 .animate-title.inview .char {
   -webkit-animation-name: kf-animate-chars;
           animation-name: kf-animate-chars;
@@ -624,6 +636,197 @@
             transform: translateY(0);
   }
 }
+.animate-title1.inview .char {
+  -webkit-animation-name: kf-animate-chars;
+          animation-name: kf-animate-chars;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+          animation-timing-function: cubic-bezier(0.39, 1.57, 0.58, 1);
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.animate-title1.inview .char:nth-child(1) {
+  -webkit-animation-delay: 0.02s;
+          animation-delay: 0.02s;
+}
+
+.animate-title1.inview .char:nth-child(2) {
+  -webkit-animation-delay: 0.04s;
+          animation-delay: 0.04s;
+}
+
+.animate-title1.inview .char:nth-child(3) {
+  -webkit-animation-delay: 0.06s;
+          animation-delay: 0.06s;
+}
+
+.animate-title1.inview .char:nth-child(4) {
+  -webkit-animation-delay: 0.08s;
+          animation-delay: 0.08s;
+}
+
+.animate-title1.inview .char:nth-child(5) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+
+.animate-title1.inview .char:nth-child(6) {
+  -webkit-animation-delay: 0.11s;
+          animation-delay: 0.11s;
+}
+
+.animate-title1.inview .char:nth-child(7) {
+  -webkit-animation-delay: 0.12s;
+          animation-delay: 0.12s;
+}
+
+.animate-title1.inview .char:nth-child(8) {
+  -webkit-animation-delay: 0.13s;
+          animation-delay: 0.13s;
+}
+
+.animate-title1.inview .char:nth-child(9) {
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.15s;
+}
+
+.animate-title1.inview .char:nth-child(10) {
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+}
+
+.animate-title1.inview .char:nth-child(11) {
+  -webkit-animation-delay: 0.16s;
+          animation-delay: 0.16s;
+}
+
+.animate-title1.inview .char:nth-child(12) {
+  -webkit-animation-delay: 0.17s;
+          animation-delay: 0.17s;
+}
+
+.animate-title1.inview .char:nth-child(13) {
+  -webkit-animation-delay: 0.18s;
+          animation-delay: 0.18s;
+}
+
+.animate-title1.inview .char:nth-child(14) {
+  -webkit-animation-delay: 0.19s;
+          animation-delay: 0.19s;
+}
+
+.animate-title1.inview .char:nth-child(15) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.animate-title1.inview .char:nth-child(16) {
+  -webkit-animation-delay: 0.21s;
+          animation-delay: 0.21s;
+}
+
+.animate-title1.inview .char:nth-child(17) {
+  -webkit-animation-delay: 0.22s;
+          animation-delay: 0.22s;
+}
+
+.animate-title1.inview .char:nth-child(18) {
+  -webkit-animation-delay: 0.23s;
+          animation-delay: 0.23s;
+}
+
+.animate-title1.inview .char:nth-child(19) {
+  -webkit-animation-delay: 0.24s;
+          animation-delay: 0.24s;
+}
+
+.animate-title1.inview .char:nth-child(20) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+.animate-title1.inview .char:nth-child(21) {
+  -webkit-animation-delay: 0.26s;
+          animation-delay: 0.26s;
+}
+
+.animate-title1.inview .char:nth-child(22) {
+  -webkit-animation-delay: 0.27s;
+          animation-delay: 0.27s;
+}
+
+.animate-title1.inview .char:nth-child(23) {
+  -webkit-animation-delay: 0.28s;
+          animation-delay: 0.28s;
+}
+
+.animate-title1.inview .char:nth-child(24) {
+  -webkit-animation-delay: 0.29s;
+          animation-delay: 0.29s;
+}
+
+.animate-title1.inview .char:nth-child(25) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+
+.animate-title1.inview .char:nth-child(26) {
+  -webkit-animation-delay: 0.31s;
+          animation-delay: 0.31s;
+}
+
+.animate-title1.inview .char:nth-child(27) {
+  -webkit-animation-delay: 0.32s;
+          animation-delay: 0.32s;
+}
+
+.animate-title1.inview .char:nth-child(28) {
+  -webkit-animation-delay: 0.33s;
+          animation-delay: 0.33s;
+}
+
+.animate-title1.inview .char:nth-child(29) {
+  -webkit-animation-delay: 0.34s;
+          animation-delay: 0.34s;
+}
+
+.animate-title1.inview .char:nth-child(30) {
+  -webkit-animation-delay: 0.35s;
+          animation-delay: 0.35s;
+}
+          @-webkit-keyframes kf-animate-chars {
+            0% {
+              opacity: 0;
+              -webkit-transform: translateY(-50%);
+                      transform: translateY(-50%);
+            }
+            100% {
+              opacity: 1;
+              -webkit-transform: translateY(0);
+                      transform: translateY(0);
+            }
+          }
+          
+          @keyframes kf-animate-chars {
+            0% {
+              opacity: 0;
+              -webkit-transform: translateY(-50%);
+                      transform: translateY(-50%);
+            }
+            100% {
+              opacity: 1;
+              -webkit-transform: translateY(0);
+                      transform: translateY(0);
+            }
+          }
 
 .cover-slide {
   position: relative;
@@ -982,7 +1185,18 @@ Stylesheet: ベーススタイル
 body {
   font-family: "Kameron", "Noto Sans JP", sans-serif;
 }
+.paged main {
+  background-image: url(images/背景.jpg);
+  background-size: cover;
+  background-color: #464646;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 
+.about {
+  padding: 100px;
+  text-align: center;
+}
 img {
   max-width: 100%;
   vertical-align: bottom;
@@ -1008,7 +1222,7 @@ img {
   margin-bottom: 16px !important;
 }
 
-.mb-lg, .travel, .houses, .popular__btn {
+.mb-lg, .travel,.aboutus, .houses, .popular__btn {
   margin-bottom: 80px !important;
 }
 
@@ -1024,7 +1238,11 @@ img {
   margin: 0 auto;
   max-width: 1070px;
 }
-
+.aboutus {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 .main-title {
   font-weight: 600;
   margin-bottom: 0;
@@ -1034,7 +1252,9 @@ img {
 .sub-title {
   color: #535353;
 }
-
+.about-item1 {
+  margin-top: 30px;
+}
 .flex, .travel__inner, .houses__inner,.more-inner, .popular__container, .footer__nav, .footer__ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1058,6 +1278,7 @@ main {
   position: relative;
   z-index: -1;
 }
+
 
 #container {
   background-color: white;
@@ -1142,6 +1363,13 @@ main {
           justify-content: space-between;
   padding: 15px;
   background-color: #eaebe6;
+  position: relative;
+  z-index: 0;
+}
+.about__inner {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+  padding: 150px 15px 150px 15px;
   position: relative;
   z-index: 0;
 }
@@ -1397,6 +1625,10 @@ Stylesheet: 450px以下のモニタで適用
 .morehouses__title {
   font-size: 9px;
 }
+.about {
+  padding: 0px;
+  text-align: center;
+}
 }
 @media (min-width:450px) and ( max-width:600px) {
   /******************************************************************
@@ -1419,6 +1651,10 @@ Stylesheet: 600px以下(スマホの横向き)のモニタで適用
 .morehouses__title {
   font-size: 15px;
 }
+.about {
+  padding: 0;
+  text-align: center;
+}
 }
 @media (min-width: 600px) {
   /******************************************************************
@@ -1426,7 +1662,7 @@ Stylesheet: 600px以下(スマホの横向き)のモニタで適用
 Stylesheet: 600px以上のタブレットやモニタで適用
 
 ******************************************************************/
-  .flex, .travel__inner, .houses__inner,.more-inner, .popular__container, .footer__nav, .footer__ul {
+  .flex, .travel__inner, .about__inner,.houses__inner,.more-inner, .popular__container, .footer__nav, .footer__ul {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1450,6 +1686,9 @@ Stylesheet: 600px以上のタブレットやモニタで適用
   }
   .travel__inner {
     padding: 50px;
+  }
+  .about__inner {
+    padding: 150px 15px 150px 15px;
   }
   .left-item {
     float: left;
@@ -1500,7 +1739,7 @@ Stylesheet: 960px以上のモニタで適用
   .font-lg, .main-title {
     font-size: 36px;
   }
-  .mb-lg, .travel, .houses, .popular__btn {
+  .mb-lg, .travel,.aboutus, .houses, .popular__btn {
     margin-bottom: 150px !important;
   }
   .pb-lg, .hero {
@@ -1547,6 +1786,9 @@ Stylesheet: 1280px以上のモニタで適用
 ******************************************************************/
   .travel__inner {
     padding: 50px 150px;
+  }
+  .about__inner {
+    padding: 150px 15px 150px 15px;
   }
   .popular__item {
     -ms-flex-preferred-size: 23%;
